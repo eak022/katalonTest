@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T01 - Search By keyword,Chrome 120.0.0.0,,,16-01-2024 15:05:52,16-01-2024 15:06:02,10.230s,PASSED
+,,,,,,,
+Test Cases/UC01 - Search By Keyword/TC0101 - Search By Keyword - npru,Chrome 120.0.0.0,,,16-01-2024 15:05:52,16-01-2024 15:05:57,5.285s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:05:52,16-01-2024 15:05:53,1.218s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:05:53,16-01-2024 15:05:54,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/textarea_q""), ""npru"")",Chrome 120.0.0.0,,,16-01-2024 15:05:54,16-01-2024 15:05:55,0.645s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/input_btnK""))",Chrome 120.0.0.0,,,16-01-2024 15:05:55,16-01-2024 15:05:55,0.699s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏนครปฐม "", false)",Chrome 120.0.0.0,,,16-01-2024 15:05:55,16-01-2024 15:05:57,1.578s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:05:57,16-01-2024 15:05:57,0.093s,PASSED
+,,,,,,,
+Test Cases/UC01 - Search By Keyword/TC0102 - Search By Keyword - pbru,Chrome 120.0.0.0,,,16-01-2024 15:05:57,16-01-2024 15:06:02,4.819s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:05:57,16-01-2024 15:05:58,0.628s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:05:58,16-01-2024 15:05:58,0.733s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/Page_Google/textarea_q""), ""pbru"")",Chrome 120.0.0.0,,,16-01-2024 15:05:58,16-01-2024 15:05:59,0.835s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/Page_Google/input_btnK""))",Chrome 120.0.0.0,,,16-01-2024 15:05:59,16-01-2024 15:06:00,0.631s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏเพชรบุรี"", false)",Chrome 120.0.0.0,,,16-01-2024 15:06:00,16-01-2024 15:06:02,1.867s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:06:02,16-01-2024 15:06:02,0.070s,PASSED
