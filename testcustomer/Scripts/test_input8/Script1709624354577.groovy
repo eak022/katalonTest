@@ -26,15 +26,15 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Customer Form/s
 
 WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_First Name_firstName'), 'johnjohn')
 
-WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Last Name_lastName'), 'canon')
+WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Last Name_lastName'), 'cano')
 
 WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Age_age'), '75')
 
 WebUI.click(findTestObject('Object Repository/Page_Customer Form/button_Submit'))
 
-WebUI.verifyTextPresent('First Name: johnjohn', false)
+WebUI.verifyTextPresent('Customer Detail Form', false)
 
-WebUI.takeFullPageScreenshot("pic/pic08.png")
+WebUI.takeFullPageScreenshot('pic/pic08.png')
 
 WebUI.closeBrowser()
 

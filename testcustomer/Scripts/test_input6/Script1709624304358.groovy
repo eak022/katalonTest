@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_Customer Form/button_Submit')
 
 WebUI.verifyTextPresent('Customer Detail Form', false)
 
-WebUI.takeFullPageScreenshot("pic/pic06.png")
+WebUI.takeFullPageScreenshot('pic/pic06.png')
 
 WebUI.closeBrowser()
 

@@ -28,13 +28,13 @@ WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_First N
 
 WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Last Name_lastName'), 'canoncan')
 
-WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Age_age'), '10')
+WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Age_age'), '0')
 
 WebUI.click(findTestObject('Object Repository/Page_Customer Form/button_Submit'))
 
-WebUI.verifyTextPresent('johnjohn', false)
+WebUI.verifyTextPresent('Customer Detail Form', false)
 
-WebUI.takeFullPageScreenshot("pic/pic10.png")
+WebUI.takeFullPageScreenshot('pic/pic10.png')
 
 WebUI.closeBrowser()
 
